@@ -30,7 +30,7 @@ function changeColor() {
 		.catch(console.error);
 		
     if(config.logging){
-      console.log(`[ColorChanger] Changed color to ${rainbow[place]} in server: ${servers[index]}`);
+      console.log(`[ColourChanger] Changed colour to ${rainbow[place]} in server: ${servers[index]}`);
     }
     if(place == (size - 1)){
       place = 0;
